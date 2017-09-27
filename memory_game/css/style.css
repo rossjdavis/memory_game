@@ -18,15 +18,19 @@ h2 {
 	font-size: 20px;
 }
 
-a {
+nav a {
 	font-weight: 600;
-	/*color: #F15B31;*/
 	color: #FFFFFF;
 	text-decoration: none;
 	font-size: 18px;
 	margin: 20px;
 	border-bottom: 2px solid transparent;
+}
 
+p a {
+	color: #F15831;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
 }
 
 p {
@@ -88,10 +92,34 @@ footer {
 }
 
 .name {
-	color: $F15831;
+	color: #F15831;
 	font-weight: 700;
 }
 
-a:hover {
+.resetbutton {
+	background-color: #00A6B3;
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px auto;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.resetbutton:hover {
+	background-color: #F15831;
+	color: white;
+}
+
+nav a:hover {
 	border-color: white;
+}
+
+p a:hover {
+	border-color: #F15831;
 }
