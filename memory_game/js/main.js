@@ -25,11 +25,15 @@ var cards = [
 
 var cardsInPlay = [];
 
+var score = 0;
+var attempts = 0;
+
 var checkForMatch = function () {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
-		alert("You found a match!");		
+		score++;
+		alert("You found a match " + score + " out of " + attempts + " attempts!");		
 	} else {
-		alert("Sorry try again.");		
+		alert("Sorry, try again!");		
 	}
 };
 
@@ -41,6 +45,7 @@ var flipCard = function () {
 	console.log(cards[cardId].cardImage);
 	this.setAttribute('src', cards[cardId].cardImage);
 	if (cardsInPlay.length === 2) {
+		attempts++;
 		checkForMatch();
 	}
 };
