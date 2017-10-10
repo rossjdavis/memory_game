@@ -5,24 +5,24 @@ h1, h2, a {
 }
 
 h1 {
+	font-size: 45px;
 	font-weight: 400;
 	/*color: #0D2C40;*/
-	font-size: 45px;
 	margin: 0;
 
 }
 
 h2 {
-	font-weight: 600;
 	color: #0D2C40;
 	font-size: 20px;
+	font-weight: 600;
 }
 
 nav a {
-	font-weight: 600;
 	color: #FFFFFF;
-	text-decoration: none;
 	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
 	margin: 20px;
 	border-bottom: 2px solid transparent;
 }
@@ -35,8 +35,8 @@ p a {
 
 p {
 	font-family: "Droid Serif", serif;
-	line-height: 26px;
 	font-size: 18px;
+	line-height: 26px;
 }
 
 body {
@@ -45,8 +45,8 @@ body {
 }
 
 header {
-	background-color: #F15B31;
 	color: #FFFFFF;
+	background-color: #F15B31;
 	padding: 30px 20px;
 }
 
@@ -65,13 +65,13 @@ img {
 }
 
 footer {
-	text-transform: uppercase;
-	padding: 0px 20px;
-	background-color: #0D2C40;
 	color: white;
 	font-size: 14px;
-	letter-spacing: .08em;
 	font-weight: 500;
+	background-color: #0D2C40;
+	text-transform: uppercase;
+	padding: 0px 20px;
+	letter-spacing: .08em;
 }
 
 .copyright {
@@ -96,28 +96,66 @@ footer {
 	font-weight: 700;
 }
 
-.resetbutton {
-	background-color: #00A6B3;
-	display: inline-block;
-	padding: 10px 20px;
-	margin: 20px auto;
+.resetButton {
 	color: white;
-	border: 1px solid black;
-	border-radius: 10px;
 	font-family: "Raleway", sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
 	font-size: 20px;
 	font-weight: 600;
+	background-color: #00A6B3;
+	text-transform: uppercase;
+	padding: 10px 5px; 
+	margin: 20px auto -35px;
+	border: 1px solid black;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	display: block;
+	width: 200px;
 }
 
-.resetbutton:hover {
-	background-color: #F15831;
+.resetButton:hover {
 	color: white;
+	background-color: #F15831;
+}
+
+.scoreBoard {
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #F15831;
+	text-transform: uppercase;
+	margin: 0px auto;
+	border: 1px solid #F15831;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 0px 0px 7px 0px;
+}
+
+.scoreHeader {
+	color: white;
+	width: 200px;
+	padding: 5px;
+}
+
+.scoreTotals {
+	color: #F15831;
+	background-color: white;
+	padding: 5px;
+}
+
+.alertMessage {
+	color: #F15831;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px auto;
+	letter-spacing: 1px;
 }
 
 nav a:hover {
 	border-color: white;
+
 }
 
 p a:hover {

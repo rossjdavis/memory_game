@@ -13,6 +13,7 @@
 	<nav>
 		<a href="#instructions">Instructions</a>
 		<a href="#game">Game</a>
+		<a href="#score">Score</a>
 	</nav>
 	
 	<main>
@@ -21,17 +22,23 @@
 
 		<h2>Game</h2>
 		<p id="game">This game is awesome and you should play it because I'm awesome.</p>
-		<p><a href="#">Follow me</a> on Instagram.</p>
 
-		<div id="game-board" class="board clearfix">
+		<div id="alert" class="alertMessage"></div>
+
+		<div id="reset-board" class="resetButton">Reset</div>
+
+		<div id="game-board" class="board clearfix"></div>
+
+		<div id="score-board" class="scoreBoard">
+			<div class="scoreHeader">Score</div>
+			<div id="score" class="scoreTotals">0|0</div>
 		</div>
-		
-		<div id="reset-board" class="resetbutton">Reset</div>
+
 	</main>
 	
 	<footer class="clearfix">
 		<p class="copyright">Copyright 2017</p>
-		<p class="message">Created with &hearts; by <span class="name">GA</span>
+		<p class="message">Created with &hearts; by <span class="name">GA</span></p>
 	</footer>
 
 	<script src="js/main.js"></script>
